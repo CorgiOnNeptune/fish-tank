@@ -5,6 +5,6 @@ class BiteFish extends Fish {
     this.imageUri = '/images/bite-fish.gif';
     this.width = 90;
     this.height = 90;
+    this.isFood = false;
   }
-
 }

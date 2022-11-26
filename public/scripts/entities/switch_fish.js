@@ -4,6 +4,7 @@ class SwitchFish extends Fish {
     super(options);
     this.imageUri = '/images/switch-fish.png';
     this.width = 90;
+    this.isFood = true;
   }
 
   onClick(event) {
